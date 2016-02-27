@@ -2,6 +2,23 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
 
+@font-face {
+        font-family: Cabin-Bold;
+        src: url(../fonts/Cabin/Cabin-Bold.ttf) format('truetype');
+    }
+@font-face {
+        font-family: Cabin-Medium;
+        src: url(../fonts/Cabin/Cabin-Medium.ttf) format('truetype');
+    }    
+@font-face {
+        font-family: Cabin-SemiBold;
+        src: url(../fonts/Cabin/Cabin-SemiBold.ttf) format('truetype');
+    }
+@font-face {
+        font-family: Cabin-Regular;
+        src: url(../fonts/Cabin/Cabin-Regular.ttf) format('truetype');
+    }    
+    
 /*
         Helios by HTML5 UP
         html5up.net | @n33co
@@ -1597,6 +1614,7 @@ h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
 
 h2 {
     font-size: 2.85em;
+    font-family: Cabin-SemiBold;
 }
 
 h3 {
@@ -1619,6 +1637,7 @@ em, i {
 
 a {
     color: inherit;
+    font-family: Cabin-SemiBold;
     border-bottom: solid 1px rgba(128, 128, 128, 0.15);
     text-decoration: none;
     -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1721,6 +1740,7 @@ header {
 header > p {
     display: block;
     font-size: 1.5em;
+    font-family: Cabin-Regular;
     margin: 1em 0 2em 0;
     line-height: 1.5em;
     text-align: inherit;
@@ -2139,12 +2159,14 @@ header .icon.circled {
 #header h1 {
     color: #fff;
     font-size: 3em;
-    font-family: sans-serif;
     line-height: 1em;
+    font-family: Cabin-Medium;;
+
 }
 
+
 #header h1 a {
-    color: inherit;
+   font-family: Cabin-Medium;
 }
 
 #header .button {
@@ -2209,6 +2231,7 @@ body.homepage.is-loading #header:after {
 /* Nav */
 
 #nav {
+    font-family: Cabin-SemiBold;
     position: absolute;
     top: 0;
     left: 0;
@@ -2217,7 +2240,7 @@ body.homepage.is-loading #header:after {
     padding: 1.5em 0 1.5em 0;
     z-index: 1;
     overflow: hidden;
-   /* background-color: rgba(0,94,173,0.5);*/
+    /* background-color: rgba(0,94,173,0.5);*/
 }
 
 #nav > ul {
@@ -2345,6 +2368,9 @@ body.homepage.is-loading #header:after {
 
 #banner header > p {
     margin-bottom: 0;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: justify;
 }
 
 /* Content */
@@ -2483,7 +2509,7 @@ body.homepage.is-loading #header:after {
 }
 
 .carousel .forward:hover:before, .carousel .backward:hover:before {
-    background-color: rgba(239, 131, 118, 0.75);
+    background-color: #3fc7ff;
 }
 
 .carousel .forward {
