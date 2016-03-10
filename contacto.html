@@ -1,139 +1,203 @@
-<!DOCTYPE HTML>
-<!--
-        Helios by HTML5 UP
-        html5up.net | @n33co
-        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Contacto - Proyección Carga S.A.S</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <title>Contacto :: Proyección Carga SAS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Truck Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- bootstarp-css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <!--// bootstarp-css -->
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+        <!--// css -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <!--fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+        <!--/fonts-->
+        <link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+        <script src="assets/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="assets/js/contact-form.js"></script>
+        <script src="assets/css/sweetalert/sweetalert.min.js"></script>
+    			    <link rel="stylesheet" type="text/css" href="assets/css/sweetalert/sweetalert.css">
+        <!--start-smoth-scrolling-->
+        <script type="text/javascript" src="assets/js/move-top.js"></script>
+        <script type="text/javascript" src="assets/js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 900);
+                });
+            });
+        </script>
+        <!--start-smoth-scrolling-->
+
     </head>
-    <body class="no-sidebar">
-        <div id="page-wrapper">
-
-            <!-- Header -->
-            <div id="header">
-                <!-- Inner -->
-                <!-- <div class="inner">
-                     <header></header>
-                 </div>-->
-
-                <!-- Nav -->
-                <nav id="nav">
-                    <ul>
-                        <li><a href="index.html">INICIO</a></li>
-                        <li>
-                            <a href="#">PROCARGA APP</a>
-                            <ul>
-                                <li><a href="#">USO DE LA PLATAFORMA</a></li>
-                                <li><a href="#">USO DE LA APP</a></li>
-                                <li><a href="#">PREGUNTAS FRECUENTES</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">LA EMPRESA</a>
-                            <ul>
-                                <li><a href="#">NOSOTROS</a></li>
-
-                                <li><a href="#">TRABAJE CON NOSOTROS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="left-sidebar.html">PORTAFOLIO</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li class="active"><a href="contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <!-- Main -->
-            <div class="wrapper style1">
-                <div class="container">
-                    <article id="main" class="special">
-                        <header>
-                            <h2><a href="#">CONTACTO</a></h2>
-                            <p>
-                                <strong>¿Tienes dudas, sugerencias, elogios o críticas?</strong>
-                                <br>
-                                Contáctanos por teléfono o por correo y tendremos el gusto de atenderte.
-                            <h3>
-                                <strong>Tel: </strong>(57) (1) 491 26 29<br>
-                                <strong>Cel: </strong>315 309 11 30<br>
-                                <strong>E-mail: </strong>operaciones@proyeccioncarga.com<br>
-                                <strong>Dir: </strong>Av. Centenario Calle 17 # 90-95 Parqueadero R&R<br>
-                            </h3>
-                            </p>
-                        </header>
-                    </article>
-                    <section id="three" class="wrapper style1 fade-up"
-                             style="border: 2px #ebecec; border-style: solid ;background-color: #e1e2e2;">
-                        <section>
-                            <form id="fcontacto" name="fcontacto"  method="post" action="" >
-                                <div>
-                                    <label for="nombre">Tú nombre <i>(requerido)</i>:</label>
-                                    <input type="text" name="nombre" id="nombre" required="true" title="Campo requerido, digita tú nombre."/>
-                                </div>
-                                <div>
-                                    <label for="email">Tú e-mail <i>(requerido)</i>:</label>
-                                    <input type="email" name="email" id="email" required="true" title="Campo requerido, digita tú correo electronico."/>
-                                </div>
-                                <div>
-                                    <label for="telefono">Teléfono:</label>
-                                    <input type="tel" name="telefono" id="telefono" />
-                                </div>
-                                <div>
-                                    <label for="asunto">Asunto <i>(requerido)</i>:</label>
-                                    <input type="text" name="asunto" id="asunto" title="Campo requerido, digita el asunto de tú mensaje."/>
-                                </div>
-                                <div>
-                                    <label for="mensaje">Tú mensaje <i>(requerido)</i>:</label>
-                                    <textarea name="mensaje" id="mensaje" rows="5" required="true" title="Campo requerido, Escribe tú mensaje."></textarea>
-                                </div>
-                                <br>
-                                <input class="button submit" type="submit" value="Enviar">
-                            </form>
-                            <div id="respuesta" style="display: none">
-
-                            </div>
-                        </section>
-                    </section>
-                    <section>
-                        <header>
-                            <center>
-                                <h3>Nuestra ubicación</h3>
-                            </center>
-                        </header>
-                        <div id="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6687.857925508876!2d-74.13847095720742!3d4.6609286249834305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c6473cb0e17%3A0x22f3b3938f20b3eb!2sProyecci%C3%B3n+Carga!5e0!3m2!1ses!2sco!4v1455300010614" 
-                                    style="border:2px solid #0064a8; border-radius: 10px; height: 310px; width: 100%;"frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </section>
-                    <!--
-                    <div class="row">
-                    </div>-->
+    <body>
+        <!-- banner -->
+        <div id="home" class="banner a-banner">
+            <!-- container -->
+            <div class="container">
+                <div class="header">
+                    <div class="head-logo">
+                        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                    </div>
+                    <div class="top-nav">
+                        <span class="menu"><img src="images/menu.png" alt=""></span>
+                        <ul class="nav1">
+                            <li class="hvr-sweep-to-bottom"><a href="index.html">Inicio<i><img src="images/nav-but1.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="about.html">Nosotros<i><img src="images/nav-but2.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="services.html">Servicios<i><img src="images/nav-but3.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="blog.html">Blog<i><img src="images/nav-but4.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom active"><a href="contacto.html">Contacto<i><img src="images/nav-but5.png" alt=""/></i></a></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <!-- script-for-menu -->
+                        <script>
+                            $("span.menu").click(function () {
+                                $("ul.nav1").slideToggle(300, function () {
+                                    // Animation complete.
+                                });
+                            });
+                        </script>
+                        <!-- /script-for-menu -->
+                    </div>
+                    <div class="clearfix"> </div>
                 </div>
             </div>
-
-            <!-- Footer -->
-            <div w3-include-html="footer.html"></div> 
-
+            <!-- //container -->
         </div>
+        <!-- //banner -->
+        <!-- mail -->
+        <div class="mail">
+            <!-- container -->
+            <div class="container">
+                <div class="map footer-middle wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6687.857925508876!2d-74.13847095720742!3d4.6609286249834305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c6473cb0e17%3A0x22f3b3938f20b3eb!2sProyecci%C3%B3n+Carga!5e0!3m2!1ses!2sco!4v1455300010614"frameborder="0"
+                            style="border:2px solid #0064a8; border-radius: 10px; height: 310px; width: 100%;"></iframe>
+                </div>
+                <div class="mail-grids">
+                    <div class="col-md-6 mail-grid-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <h3>Contáctenos</h3>
+                        <h4>
+                            <br>¿Tienes dudas, sugerencias, elogios o críticas?                       
+                        </h4>
+                        <h5>
+                            <span>Contáctanos por teléfono o por correo y tendremos el gusto de atenderte. </span>
+                        </h5>
+                        <h4>Sede</h4>
+                        <p>Av. Centenario Calle 17 # 90-95.
+                            <span>Parqueadero R & R.</span>
+                            Bogotá D.C. - Colombia.
+                        </p>
+                        <h4>Teléfonos</h4>
+                        <p>Telephone: (+571) 491 26 29
+                            <span>FAX: (+57) 315 309 1130</span>
+                            E-mail: <a href="operaciones@proyeccioncarga.com">operaciones@proyeccioncarga.com</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 contact-form wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <form id="fcontacto" name="fcontacto"  method="post" action=""> 
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="true"/>
+                            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" required="true"/>
+                            <input type="text" name="email" id="email" placeholder="Email" required="true"/>
+                            <input type="text" name="asunto" id="asunto"  placeholder="Asunto" required="true"/>
+                            <textarea name="mensaje" id="mensaje" placeholder="Mensaje" required="true"></textarea>
+                            <input type="submit" value="ENVIAR">                    
+                        </form>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <!-- //container -->
+        </div>
+        <!-- //mail -->
+        <!-- footer -->
+        <div class="footer">
+            <!-- container -->
+            <div class="container">
+                <div class="col-md-6 footer-left  wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="services.html">Servicios</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                    <form>
+                        <input type="text" placeholder="Email" required="">
+                        <input type="submit" value="Suscribirse">
+                    </form>
+                </div>
+                <div class="col-md-3 footer-middle wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <h3><a href="contacto.html">Contacto</a></h3>
+                    <div class="address">
+                        <p>Av. Centenario Calle 17 # 90-95,
+                            <span>Parqueadero R & R.</span>
+                            <span>Bogotá D.C. - Colombia.</span>
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <p class="telfijo">+57(1) 491 26 29</p>
+                        <p class="telmovil">315 309 11 30</p>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-right  wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <a href="#"><img src="images/logo.png" alt="" /></a>
+                    <p>Proyección Carga SAS. Logística y transporte.</p>
+                </div>
+                <div class="clearfix"> </div>	
+            </div>
+            <!-- //container -->
+        </div>
+        <!-- //footer -->
+        <div class="copyright">
+            <!-- container -->
+            <div class="container">
+                <div class="copyright-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <p>© 2016 Proyección Carga SAS. <a class="W3layouts" href="http://w3layouts.com/">Design by W3layouts</a></p>
+                </div>
+                <div class="copyright-right wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <ul>
+                        <li><a href="https://twitter.com/proye_carga" class="twitter"> </a></li>
+                        <li><a href="https://www.facebook.com/proyeccioncarga" class="twitter facebook"> </a></li>
+                        <li><a href="https://plus.google.com/u/0/+Proyecci%C3%B3nCargaBogot%C3%A1/posts" class="twitter chrome"> </a></li>
+                       <!-- <li><a href="#" class="twitter pinterest"> </a></li>
+                        <li><a href="#" class="twitter linkedin"> </a></li>
+                        <li><a href="#" class="twitter dribbble"> </a></li>-->
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        /*
+                         var defaults = {
+                         containerID: 'toTop', // fading element id
+                         containerHoverID: 'toTopHover', // fading element hover id
+                         scrollSpeed: 1200,
+                         easingType: 'linear' 
+                         };
+                         */
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.dropotron.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/jquery.onvisible.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/contact-form.js"></script>
-        <script src="assets/js/w3-include-HTML.js"></script>
+                        $().UItoTop({easingType: 'easeOutQuart'});
 
+                    });
+                </script>
+                <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+            </div>
+            <!-- //container -->
+        </div>
     </body>
 </html>

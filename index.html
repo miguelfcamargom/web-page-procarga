@@ -1,417 +1,380 @@
-<!DOCTYPE HTML>
-<!--
-        Helios by HTML5 UP
-        html5up.net | @n33co
-        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Proyección carga S.A.S.</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <title>.:Proyección Carga SAS:. Logística y Transporte</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Proyección Carga SAS, Proyeccion Carga, Procarga, Transporte de carga,Contenedores, Transporte de contenedores, App Transporte de Carga, Cargue y descargue, App" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- bootstarp-css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <!--// bootstarp-css -->
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+        <!--// css -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <!--fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+        <!--/fonts-->
+        <link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+        <script src="assets/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!--start-smoth-scrolling-->
+        <script type="text/javascript" src="assets/js/move-top.js"></script>
+        <script type="text/javascript" src="assets/js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 900);
+                });
+            });
+        </script>
+        <!--start-smoth-scrolling-->
+
     </head>
-    <body class="homepage">
-        <div id="page-wrapper">
-
-            <!-- Header -->
-            <div id="header">
-
-                <!-- Inner -->
-                <div class="inner">
-
-                    <header>
-                        <div>
-                            <img src="images/logoapp.png"  width=21% height="21%" alt="" />
-                        </div>
-                        <h1>
-                            <a href="index.html" id="logo">PROYECCIÓN CARGA</a>
-                        </h1>
-                    </header>
-
+    <body>
+        <!-- banner -->
+        <div id="home" class="banner a-banner">
+            <!-- container -->
+            <div class="container">
+                <div class="header">
+                    <div class="head-logo">
+                        <a href="index.html"><img class="logo" src="images/logo.png" alt="" /></a>
+                    </div>
+                    <div class="top-nav">
+                        <span class="menu"><img src="images/menu.png" alt=""></span>
+                        <ul class="nav1">
+                            <li class="hvr-sweep-to-bottom active"><a href="index.html">Inicio<i><img src="images/nav-but1.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="about.html">Nosotros<i><img src="images/nav-but2.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="services.html">Servicios<i><img src="images/nav-but3.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="blog.html">Blog<i><img src="images/nav-but4.png" alt=""/></i></a></li>
+                            <li class="hvr-sweep-to-bottom"><a href="contacto.html">Contacto<i><img src="images/nav-but5.png" alt=""/></i></a></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <!-- script-for-menu -->
+                        <script>
+                            $("span.menu").click(function () {
+                                $("ul.nav1").slideToggle(300, function () {
+                                    // Animation complete.
+                                });
+                            });
+                        </script>
+                        <!-- /script-for-menu -->
+                    </div>
+                    <div class="clearfix"> </div>
                 </div>
-                <!-- Nav -->
-                <nav id="nav">
-                    <ul>
-                        <li class="active"><a href="index.html">INICIO</a></li>
-                        <li>
-                            <a href="#">PROCARGA APP</a>
-                            <ul>
-                                <li><a href="#">USO DE LA PLATAFORMA</a></li>
-                                <li><a href="#">USO DE LA APP</a></li>
-                                <li><a href="#">PREGUNTAS FRECUENTES</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">LA EMPRESA</a>
-                            <ul>
-                                <li><a href="#">NOSOTROS</a></li>
+            </div>
+            <!-- //container -->
+            <div class="container">
+                <script src="assets/js/responsiveslides.min.js"></script>
+                <script>
+                            // You can also use "$(window).load(function() {"
+                            $(function () {
+                                // Slideshow 4
+                                $("#slider3").responsiveSlides({
+                                    auto: true,
+                                    pager: true,
+                                    nav: false,
+                                    speed: 500,
+                                    namespace: "callbacks",
+                                    before: function () {
+                                        $('.events').append("<li>before event fired.</li>");
+                                    },
+                                    after: function () {
+                                        $('.events').append("<li>after event fired.</li>");
+                                    }
+                                });
 
-                                <li><a href="#">TRABAJE CON NOSOTROS</a></li>
-                            </ul>
+                            });
+                </script>
+                <div  id="top" class="callbacks_container">
+                    <ul class="rslides" id="slider3">
+                        <li>
+                            <div class="banner-info">
+                                <h2>Transportamos <span>fácil y rápido</span> </h2>  
+                                <div class="line"> </div>
+                                <p>
+                                    Su mercancía siempre llega a tiempo, trabajamos para superar sus espectativas y reuerimientos.
+                                </p>
+                            </div>
                         </li>
-                        <li><a href="left-sidebar.html">PORTAFOLIO</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li><a href="contacto.html">CONTACTO</a></li>
+                        <li>
+                            <div class="banner-info">
+                                <h2>La seguridad es <span>fundamental </span>para nosotros</h2>
+                                <div class="line"> </div>
+                                <p>
+                                    Desarrollamos esquemas de seguridad para cada cliente de acuerdo al producto transportado y el destino a transportar.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="banner-info">
+                                <h2>Su carga siempre estará en las  <span> mejores </span> manos.</h2>
+                                <div class="line"> </div>
+                                <p>
+                                    Garantizamos la confidencialidad de la información relacionada con su carga, mantenemos con absoluta reserva
+                                    los detalles de su operación.
+                                </p>
+                            </div>
+                        </li>
                     </ul>
-                </nav>
-            </div>
-
-            <!-- Banner -->
-            <section id="banner">
-                <header>
-                    <h2>ACERCA DE NOSOTROS - <strong>Nuestra empresa</strong>.</h2>
-                    <p>
-                        Somos una empresa de transporte terrestre de carga, brindamos soluciones que aportan valor a nuestros clientes, estamos comprometidos y preparados para atender en todo momento en forma rápida y oportuna, las necesidades de transporte de mercancías que su empresa requiera.
-                    </p>
-                </header>
-            </section>
-
-            <!-- Carousel -->
-            <section class="carousel">
-                <div class="reel">
-
-                    <article>
-                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt=""  /></a>
-                        <header>
-                            <h4><a href="#">CONTENEDORES</a></h4>
-                        </header>
-                        <p>Transporte, exportaciones, importaciones y reposición.</p>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-                        <header>
-                            <h4><a href="#">TRANSPORTE DE MERCANCÍA</a></h4>
-                        </header>
-                        <p>Transporte de carga y mercancia a nivel nacional con servicios de calidad. </p>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-                        <header>
-                            <h4><a href="#">EXTRADIMENSIONADO</a></h4>
-                        </header>
-                        <p>Transporte de carga extradimensionada a nivel nacional.</p>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-                        <header>
-                            <h4><a href="#">ALMACENAMIENTO</a></h4>
-                        </header>
-                        <p>Logística y almacenamiento de contenedores.</p>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-                        <header>
-                            <h4><a href="#">TRANSPORTE DE VEHÍCULOS</a></h4>
-                        </header>
-                        <p>Transporte de vehículos con cobertura a todas las ciudades del país.</p>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-                        <header>
-                            <h4><a href="#">CARGUE Y DESCARGUE</a></h4>
-                        </header>
-                        <p>Servicio de cargue y descargue de mercancias de todo tipo de vehículos.</p>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Main -->
-            <div class="wrapper style2">
-
-                <article id="main" class="container special">
-                    <a href="#" class="image featured"><img src="images/DSC01480.jpg" alt=""  /></a>
-                    <header>
-                        <h2><a href="#">PORQUÉ ELEGIRNOS</a></h2>
-                        <p>
-                            <strong>
-                                Siendo una enpresa lider en el sector, podemos ofrecer servicios de calidad con alto grado de responsabilidad, nuestro mayor objetivo es brindar seguridad y confianza a nuestros clientes.
-                            </strong>
-                        </p>
-                    </header>
-                    <div class="row">
-                        <article class="4u 12u(mobile) special">
-                            <header>
-                                <h1 class="icon fa-check circled"></h1>
-                                <h3>EXCELENTE SERVICIO</h3>
-                            </header>
-                            <p>
-                                Nos adaptamos a las necesidades de nuestros clientes, respondemos con profesionalismo, actitud de servicio, amabilidad y calidez.
-                            </p>
-                        </article>
-                        <article class="4u 12u(mobile) special">
-                            <header>
-                                <h1 class="icon fa-truck circled"></h1>
-                                <h3>FLOTA DE VEHÍCULOS</h3>
-                            </header>
-                            <p>
-                                Afiliados a nuestra empresa, listos para atender los requerimientos de nuestros clientes.
-                            </p>
-                        </article>
-                        <article class="4u 12u(mobile) special">
-                            <header>
-                                <h1 class="icon fa-lock circled"></h1>
-                                <h3>INTEGRIDAD</h3>
-                            </header>
-                            <p>
-                                Su información y mercancía están a salvo de modificaciones,sin ser manipulada o alterada.
-                            </p>
-                        </article>
-                    </div>
-                    <div class="row">
-                        <article class="4u 12u(mobile) special">
-                            <header>
-                                <h1 class="icon fa-key circled"></h1>
-                                <h3>CONFIDENCIALIDAD</h3>
-                            </header>
-                            <p>
-                                Aseguramos que la información suministrada no será objeto de divulgación.
-                            </p>
-                        </article>
-                        <article class="4u 12u(mobile) special">
-                            <header>
-                                <h1 class="icon fa-binoculars circled"></h1>
-                                <h3>DISPONIBILIDAD</h3>
-                            </header>
-                            <p>
-                                Vehículos y personal atentos a sus requerimientos, además con información sobre su mercancía siempe disponible.
-                            </p>
-                        </article>
-                        <article class="4u 12u(mobile) special">
-                            <header>
-                                <h1 class="icon fa-laptop circled"></h1>
-                                <h3>TECNOLOGÍA</h3>
-                            </header>
-                            <p>
-                                Trabajamos de la mano de herramientas tecnologíca ofreciendo nuevas soluciones.
-                            </p>
-                        </article>
-                    </div>
-
-                </article>
-
-            </div>
-
-            <!-- Features -->
-            <div class="wrapper style1">
-                <div class="container">
-                    <div id="features" class="container special">
-                        <header>
-                            <h2>APLICACIÓN MOVIL</h2>
-                            <p>PROCARGA app está disponible para que pueda agilizar la logística de su carga, con PROCARGA app usted
-                                tendra disponible rápidamente vehículos con las características que requiere en tiempo record y con
-                                la seguridad de trabajar con Proyección Carga SAS.<br><br> ¡Descarguela ahora y mejore sus tiempos de trabajo!</p>
-                        </header>
-                        <div class="row">
-                            <article class="4u 12u(mobile) special">
-                                <a href="#" class="image featured"><img src="images/proc1.jpg" alt="" /></a>
-                                <header>
-                                    <h3><a href="#">PROCARGA Plataforma Web.</a></h3>
-                                </header>
-                                <p>
-                                    La plataforma procarga esta orientada a mejorar 
-                                    la calidad y eficiencia de nuestros clientes. Conozca en tiempo
-                                    real el estado de sus despachos, productos o mercancias.
-                                </p>
-                            </article>
-                            <article class="4u 12u(mobile) special">
-                                <a href="#" class="image featured"><img src="images/proc2.png" alt="" /></a>
-                                <header>
-                                    <h3><a href="#">PROCARGA App Móvil</a></h3>
-                                </header>
-                                <p>
-                                    Es una aplicación para dispositivos móviles que 
-                                    te permite tener acceso fácil y seguro a ofertas de transporte que se adapten a sus características.
-                                </p>
-                            </article>
-                            <article class="4u 12u(mobile) special">
-                                <a href="#" class="image featured"><img src="images/map.png" alt="" /></a>
-                                <header>
-                                    <h3><a href="#">Geolocalización</a></h3>
-                                </header>
-                                <p>
-                                    Rastreo de unidades moviles  que permite conocer en todo momento
-                                    en que punto de la ruta se encunetran los vehículos.
-                                </p>
-                            </article>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <!-- Footer -->
-            <div id="footer">
-                <div class="container">
-                    <div class="row">
-
-                        <!-- Tweets -->
-                        <section class="4u 12u(mobile)">
-                            <header>
-                                <h2 class="icon fa-twitter circled"><span class="label">Tweets</span></h2>
-                            </header>
-                            <ul class="divided">
-                                <li>
-                                    <article class="tweet">
-                                        Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
-                                        <span class="timestamp">5 minutes ago</span>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="tweet">
-                                        Hendrerit rutrum quisque.
-                                        <span class="timestamp">30 minutes ago</span>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="tweet">
-                                        Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
-                                        <span class="timestamp">3 hours ago</span>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="tweet">
-                                        Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
-                                        <span class="timestamp">5 hours ago</span>
-                                    </article>
-                                </li>
-                            </ul>
-                        </section>
-
-                        <!-- Posts -->
-                        <section class="4u 12u(mobile)">
-                            <header>
-                                <h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
-                            </header>
-                            <ul class="divided">
-                                <li>
-                                    <article class="post stub">
-                                        <header>
-                                            <h3><a href="#">Nisl fermentum integer</a></h3>
-                                        </header>
-                                        <span class="timestamp">3 hours ago</span>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="post stub">
-                                        <header>
-                                            <h3><a href="#">Phasellus portitor lorem</a></h3>
-                                        </header>
-                                        <span class="timestamp">6 hours ago</span>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="post stub">
-                                        <header>
-                                            <h3><a href="#">Magna tempus consequat</a></h3>
-                                        </header>
-                                        <span class="timestamp">Yesterday</span>
-                                    </article>
-                                </li>
-                                <li>
-                                    <article class="post stub">
-                                        <header>
-                                            <h3><a href="#">Feugiat lorem ipsum</a></h3>
-                                        </header>
-                                        <span class="timestamp">2 days ago</span>
-                                    </article>
-                                </li>
-                            </ul>
-                        </section>
-
-                        <!-- Photos -->
-                        <section class="4u 12u(mobile)">
-                            <header>
-                                <h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
-                            </header>
-                            <div class="row 25% no-collapse">
-                                <div class="6u">
-                                    <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-                                </div>
-                                <div class="6u">
-                                    <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="row 25% no-collapse">
-                                <div class="6u">
-                                    <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-                                </div>
-                                <div class="6u">
-                                    <a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="row 25% no-collapse">
-                                <div class="6u">
-                                    <a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
-                                </div>
-                                <div class="6u">
-                                    <a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                        </section>
-
-                    </div>
-                    <hr />
-                    <div class="row">
-                        <div class="12u">
-                            <section>
-                                <header>
-                                    <h2>
-                                        <a href="contacto.html">CONTÁCTANOS</a>   
-                                    </h2>
-                                    <p>¡Danos el gusto de atenderte!</p>
-                                </header>
-                                <center>
-                                    <h3>
-                                        <label class="icon fa-phone">   491 96 29</label><br>
-                                        <label class="icon fa-mobile-phone">   315 309 11 30</label><br>
-                                        <label class="icon fa-send-o">   operaciones@proyeccioncarga.com</label><br>
-                                        <label class="icon fa-map-o">   Av. Centenario Calle 17 # 90-95 Parqueadero R & R</label><br>
-                                    </h3>
-                                </center>
-                            </section>
-                            <!-- Contact -->
-                            <section class="contact">
-                                <headejp
-                                    >
-                                    <h3>CONÓCENOS</h3>
-                                    </header>
-                                    <p></p>
-                                    <ul class="icons">
-                                        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                        <li><a href="#" class="icon fa-google-plus"><span class="label">Google +</span></a></li>
-                                    </ul>
-                            </section>
-
-                            <!-- Copyright -->
-                            <div class="copyright">
-                                <ul class="menu">
-                                    <li>&copy; Proyección carga. All rights reserved.</li>
-                                    <li>Design: <a>@andresad13</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
+        <!-- //banner -->
+        <!-- banner-bottom -->
+        <div class="banner-bottom">
+            <!-- container -->
+            <div class="container">
+                <div class="banner-bottom-grids">
+                    <div class="col-md-7 banner-bottom-grid-text">
+                        <div class="jumbotron banner-bottom-left wow fadeInLeft animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation-delay: 0.5s;	">
+                            <h3>Conozca nuestra compañía</h3>
+                            <h5>Entérese como nuestra empresa se proyecta como empresa líder en el sector <span>de transporte de carga</span></h5>
+                            <p style="text-align: justify">
+                                Trabajos para ofrecer servicios de alta calidad basados en nuevas tecnologías de información y comunicaciones
+                                lo que permitira una mejor comunicación con nuestros clientes y sus necesidades, así como nuestros clientes tendrán
+                                más fácil acceso a nuestros servicios.
+                            </p>
+                            <div class="see-button">
+                                <a class="btn btn-primary btn-lg see-button hvr-shutter-out-horizontal" href="about.html" role="button">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 banner-bottom-right wow fadeInRight animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation-delay: 0.5s;">
+                        <img src="images/2.jpg" alt=""/>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <!-- //container -->
+        </div>
+        <!-- //banner-bottom -->
+        <!-- specialty -->
+        <div class="specialty">
+            <!-- container -->
+            <div class="container">
+                <div class="col-md-5 specialty-info wow fadeInLeft animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation-delay: 0.5s;">
+                    <h3>Nuestros Servicios</h3>
+                    <h5>Ofrecemos servicios de transporte de carga a nivel urbano y nacional. </h5>
+                    <p style="text-align: justify">
+                        En Proyección Carga contamos con diferentes tipos de servicios de transporte de carga que se ajustan a sus necesidades.
+                        <span>
+                            Contamos con flota de vehículos propia, lo que permite la disonibilidad del servicio, trabajamos transportando diferentes tipos
+                            de carga, además ofrecemos servicios de logística y almacenamiento.
+                        </span>
+                    </p>
+                    <div class="see-button">
+                        <a class="btn btn-primary btn-lg see-button hvr-shutter-out-horizontal specialty-button" href="services.html" role="button">Ver Más</a>
+                    </div>
+                </div>
+                <div class="col-md-7 specialty-grids">
+                    <div class="specialty-grids-top">
+                        <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                            <figure class="icon">
+                                <img src="images/1.png" alt="" />
+                            </figure>
+                            <h5>Cargue y Descargue</h5>
+                            <p>Cargue y descargue de mercancias y contenedores.</p>
+                        </div>
+                        <div class="col-md-6 service-box wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                            <figure class="icon">
+                                <img src="images/2.png" alt="" />
+                            </figure>
+                            <h5>Transporte Urbano</h5>
+                            <p>
+                                Transporte de carga a nivel urbano, de acuerdo a sus necesidades.
+                            </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="specialty-grids-top">
+                        <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                            <figure class="icon">
+                                <img src="images/3.png" alt="" />
+                            </figure>
+                            <h5>Transporte nacional</h5>
+                            <p>
+                                Transporte de carga con cubrimiento en todo el territorio nacional.
+                            </p>
+                        </div>
+                        <div class="col-md-6 service-box wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                            <figure class="icon">
+                                <img src="images/4.png" alt="" />
+                            </figure>
+                            <h5>Carga extradimensionada</h5>
+                            <p>Transportamos carga que sus dimensiones y peso sobrepasan las medidas y capacidad estandares.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <!-- //container -->
+        </div>
+        <!-- //specialty -->
+        <!-- testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <div class="testimonial-nfo wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <h3>Próximamente</h3>
+                    <h5 style="color: white;">Estará disponible PROCARGA APP <span>una aplicación que facilitará el servicio de transporte de carga </span></h5>
+                </div>
+                <div class="testimonial-grids wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <div class="testimonial-grid">
+                        <p>
+                            <span>"</span>
+                            Nuestra plataforma y aplicación móvil permitirá a nuestros clientes aumentar la eficiencia, reducir costes o hacer crecer las ventas
+                            y notoriedad"
+                            <span> "</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //testimonials -->
+        <!-- news -->
+        <div class="news">
+            <div class="container">
+                <div class="news-text">
+                    <h3>Noticias</h3>
+                    <h5>Lea nuestras más recientes publicaciones </span></h5>
+                </div>
+                <div class="news-grids">
+                    <div class="col-md-3 news-grid wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <a href="services.html"><h4>CANSANCIO AL VOLANTE</h4></a>
+                        <span>8.00 - 10.00 | ENE 11,2016</span>
+                        <img src="images/blog/img4.jpg" alt="" />
+                        <div class="news-info">
+                            <p style="text-align: justify;">
+                                Una de las principales causas de accidentes de transito es el cansancio al volante o fatiga. 
+                                Conozca algunas recomendaciones para evitar la somnolencia mientras conduce, esto podría salvarlo de un accidente.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 news-grid wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <a href="services.html"><h4>PUNTOS CIEGOS EN VEHÍCULO</h4></a>
+                        <span>10.00 - 12.00 | NOV 20,2015</span>
+                        <img src="images/blog/img3.jpg" alt="" />
+                        <div class="news-info">
+                            <p style="text-align: justify;">
+                                Aprenda a identificar los puntos ciegos de su vehículo ya que estos limitan su campo de visión al 
+                                punto de obstaculizar su amplitud visual y crear zonas de riesgo en las que se pueden provocar accidentes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 news-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <a href="services.html"><h4>EXPO MiPyme Digital 2015</h4></a>
+                        <span>9.00 - 10.00 | AGO 20,2015</span>
+                        <img src="images/blog/img2.jpg" alt="" />
+                        <div class="news-info">
+                            <p style="text-align: justify;"> 
+                                La feria especializada más importante de este sector, los visitantes encontraron lo más avanzado 
+                                en soluciones tecnológicas para empresas, su principal objetivo de la feria este año será actualizar 
+                                en materia de tecnología.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 news-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <a href="services.html"><h4>XI EXPOLOGÍSTICA 2015</h4></a>
+                        <span>11.00 - 10.00 | AGO 18,2015</span>
+                        <img src="images/blog/img1.jpg" alt="" />
+                        <div class="news-info">
+                            <p style="text-align: justify;">
+                                La feria convocó más de 120 expositores de todos los sectores industriales, con lo último en maquinaria, tecnología 
+                                y servicios para toda la cadena de suministros.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!-- //news -->
+        <!-- footer -->
+        <div class="footer">
+            <!-- container -->
+            <div class="container">
+                <div class="col-md-6 footer-left  wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="services.html">Servicios</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                    <form>
+                        <input type="text" placeholder="Email" required="">
+                        <input type="submit" value="Suscribirse">
+                    </form>
+                </div>
+                <div class="col-md-3 footer-middle wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <h3><a href="contacto.html">Contacto</a></h3>
+                    <div class="address">
+                        <p>Av. Centenario Calle 17 # 90-95,
+                            <span>Parqueadero R & R.</span>
+                            <span>Bogotá D.C. - Colombia.</span>
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <p class="telfijo">+57(1) 491 26 29</p>
+                        <p class="telmovil">315 309 11 30</p>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-right  wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <a href="#"><img src="images/logo.png" alt="" /></a>
+                    <p>Proyección Carga SAS. Logística y transporte.</p>
+                </div>
+                <div class="clearfix"> </div>	
+            </div>
+            <!-- //container -->
+        </div>
+        <!-- //footer -->
+        <div class="copyright">
+            <!-- container -->
+            <div class="container">
+                <div class="copyright-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <p>© 2016 Proyección Carga SAS. <a class="W3layouts" href="http://w3layouts.com/">Design by W3layouts</a></p>
+                </div>
+                <div class="copyright-right wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                    <ul>
+                        <li><a href="https://twitter.com/proye_carga" class="twitter"> </a></li>
+                        <li><a href="https://www.facebook.com/proyeccioncarga" class="twitter facebook"> </a></li>
+                        <li><a href="https://plus.google.com/u/0/+Proyecci%C3%B3nCargaBogot%C3%A1/posts" class="twitter chrome"> </a></li>
+                        <!-- <li><a href="#" class="twitter pinterest"> </a></li>
+                         <li><a href="#" class="twitter linkedin"> </a></li>
+                         <li><a href="#" class="twitter dribbble"> </a></li>-->
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        /*
+                         var defaults = {
+                         containerID: 'toTop', // fading element id
+                         containerHoverID: 'toTopHover', // fading element hover id
+                         scrollSpeed: 1200,
+                         easingType: 'linear' 
+                         };
+                         */
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.dropotron.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/jquery.onvisible.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
+                        $().UItoTop({easingType: 'easeOutQuart'});
 
+                    });
+                </script>
+                <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+            </div>
+            <!-- //container -->
+        </div>
     </body>
 </html>

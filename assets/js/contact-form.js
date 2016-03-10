@@ -12,7 +12,7 @@ $(document).ready(function () {
             url: '../../send.php',
             data: $(this).serialize()            
         });
-        return false;
+        swal("Buen trabajo!", "Hemos recibido su mensaje. nos pondremos en contacto lo mas pronto posible!", "success");
+        return false;        
     });
 });
-

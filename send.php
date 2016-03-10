@@ -39,16 +39,16 @@ else:
     $mail->Subject = '[' . strtoupper($nombre) . ']: ' . $asunto;
     $mail->Body = '<h3><strong>Proyección Carga ha recibido un contacto desde su sitio web</strong></h3>'
             . '<br><br>'
-            . '<b>Fecha: </b>'.date_default_timezone_get().'<br>'
-            . '<b>Nombre: </b>'.$nombre.'<br>'
-            . '<b>E-mail: </b>'.$email.'<br>'
-            . '<b>Teléfono: </b>'.$telefono.'<br>'
-            . '<b>Asunto: </b>'.$asunto.'<br>'
+            . '<b>Fecha: </b>' . date_default_timezone_get() . '<br>'
+            . '<b>Nombre: </b>' . $nombre . '<br>'
+            . '<b>E-mail: </b>' . $email . '<br>'
+            . '<b>Teléfono: </b>' . $telefono . '<br>'
+            . '<b>Asunto: </b>' . $asunto . '<br>'
             . '<b>Mensaje: </b><br>'
-            . '<p align="justify">'.$mensaje.'</p>';
+            . '<p align="justify">' . $mensaje . '</p>';
     $mail->CharSet = 'UTF-8';
     $mail->send();
     smtpClose();
-    echo "<script type=\"text/javascript\">alert('Mensaje temporal. Hemos recibido su mensaje. nos pondremos en contacto lo mas pronto posible.');</script>";
+
 endif;
 ?>
